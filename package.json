@@ -1,0 +1,32 @@
+{
+  "name": "basic-llm-call",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.10.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@anvia/core": "^0.12.2",
+    "@anvia/openai": "^0.3.15",
+    "dotenv": "^17.4.2",
+    "openai": "^6.45.0",
+    "zod": "^4.4.3"
+  }
+}
